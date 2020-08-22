@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type='text/javascript' src='map.js'></script>
     <title>Visit Hampshire - POI</title>
 </head>
 <body>
@@ -14,10 +15,22 @@
      <a href='https://edward2.solent.ac.uk/~wad1926/search.php'> Task 1 </a>
     <a href='https://edward2.solent.ac.uk/~wad1926/search.php?type=pub&region=hampshire'> Task 2 </a>
      <a href='https://edward2.solent.ac.uk/~wad1926/addpoi.php' > Task 3</a>
-     <a href='https://edward2.solent.ac.uk/~wad1926/' > Task 4</a>
+     <a href='https://edward2.solent.ac.uk/~wad1926/addreview.html' > Task 4</a>
      <a href='https://edward2.solent.ac.uk/~wad1926/ajax.js' > Task 5</a>
+     <a href='https://edward2.solent.ac.uk/~wad1926/visithampshire.html' > Task 6</a>
+     <a href='https://edward2.solent.ac.uk/~wad1926/' > Task 7</a>
+     
      
 </p>
+    
+     <div class="mapping">
+                <div id="map1" style="width:800px; height:600px"> </div>
+            </div>
+            <div class="searchform">
+                <h2>Search Point of Interest</h2>
+                Region: <input id='region' />
+                <input type='button' id='btn1' value='Search Point of Interest' />
+                <div id='responseDiv'></div>
 </form>
 </body>
 </html>
